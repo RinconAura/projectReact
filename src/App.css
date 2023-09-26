@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    padding: 150px 10px;
+    width: 100%;
+  }
+  .calculadora {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+  }
+  
+  .pantalla {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pantalla.teclado {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .teclado.fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+   
+  
+  button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /*cursor: pointer;*/
+  }
+ 
+  
+
+  
